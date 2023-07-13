@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    padding-top: 0px;
+    background-color: rgb(5, 5, 80);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: None;
+    margin: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(169, 169, 252);
+    font-size: 1.03rem;
+}
+.left{
+    font-size: 30px
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px
+}
+.leftsection{
+    text-decoration: dotted;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin: 80px 0px;
+}
+.intro{
+    font-size: 20px;
+    color: gray;
+    padding: 5px 0px;
+    margin: 17px 1px;
+}
+.buttonbox{
+    display: flex;
+    justify-content: space-between;
+    width: 349px;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin: 26px 3px;
+}
+.buttonbox a{
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    border: 2px solid rgb(6, 206, 206);
+    border-radius: 12px;
+    color:rgb(243, 236, 236);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    z-index: 1;
+}
+.buttonbox :hover{
+    color: rgb(131, 131, 245);
+    font-size: 1.03rem;
+}
+#hireme{
+    padding-top: 2px;
+}
+#Letstalk{
+    padding-top: 2px;
+}
+.rightsection img{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin: 0%;
+}
+.purple{
+    color: purple;
+    font-size: 63px;
+}
+.secondsection h1{
+    display: flex;
+    justify-content: center;
+    margin: -5%;
+}
+.secondsection .line{
+    width: 10px;
+    margin: 20px;
+}
+hr{
+    color: white;
+    background-color: lavender;
+    height: 1px;
+    margin: 104px;
+}
+.resume{
+    color: blueviolet;
+    font-size: 20px;
+}
+.resume1{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+}
+.socialmedia_btn{
+    display: flex;
+    font-size: 36px;
+    justify-content: space-around;
+    padding-top: 6px;
+}
+.fa-facebook, .fa-square-instagram, .fa-envelope, .fa-twitter{
+    padding: 20px;
+}
+.fa-facebook a:hover{
+    color: white;
+    font-size: 1.03rem;
+}
